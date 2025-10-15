@@ -25,7 +25,7 @@ public struct ExchangeKeychain{
     public var publicData: Data
     static let DEFAULT_PATH = "m/44'/60'/0'/0/1"
     public init(mnemonics: String) throws {
-        guard let seed = BIP39.seedFromMmemonics(mnemonics) else {
+        guard let seed = BIP39.seedFromMnemonics(mnemonics) else {
             throw ExchangeSignError.invalidMnemonic
         }
         guard let node = HDNode(seed: seed), let treeNode = node.derive(path: ExchangeKeychain.DEFAULT_PATH) else {
