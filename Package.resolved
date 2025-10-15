@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mathwallet/BIP39swift.git",
       "state" : {
-        "revision" : "6e654c1fedac7dc3f01443d8bdf108ab6d50245d",
-        "version" : "1.0.1"
+        "revision" : "722786f0d4503461657fd9c36a6ef9c85eba33ea",
+        "version" : "2.0.1"
       }
     },
     {
@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
       "state" : {
-        "revision" : "4b0565384d3c4c588af09e660535b2c7c9bf5b39",
-        "version" : "1.4.2"
+        "revision" : "e45a26384239e028ec87fbcc788f513b67e10d8f",
+        "version" : "1.9.0"
       }
     },
     {
@@ -86,8 +86,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mathwallet/Secp256k1Swift.git",
       "state" : {
-        "revision" : "3eac0ee49d57eaf0d91d54df876194cdd0c971fe",
-        "version" : "2.0.0"
+        "revision" : "c958eaf1e485c00344031717384ef3d0504d67ba",
+        "version" : "2.0.1"
       }
     },
     {
@@ -113,8 +113,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mathwallet/web3swift",
       "state" : {
-        "revision" : "57f4d178f37046541572fba7ef6fcb08535fd5de",
-        "version" : "3.5.0"
+        "revision" : "ec4529a9eb3d7e8c70fb3b7159feb1e3bcb00431",
+        "version" : "3.5.3"
       }
     }
   ],
