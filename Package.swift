@@ -29,7 +29,7 @@ let package = Package(
             dependencies: [
                 "web3swift",
                 "Alamofire",
-                .product(name: "Blake2", package: "Blake2"),
+                .product(name: "Blake2", package: "Blake2.swift"),
                 "KeychainAccess",
                 .product(name: "SwiftMsgpack", package: "swift-msgpack")
             ]
