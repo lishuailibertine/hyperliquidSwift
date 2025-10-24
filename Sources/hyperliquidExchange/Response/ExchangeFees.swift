@@ -9,17 +9,11 @@ import Foundation
 
 // MARK: - Root Model
 public struct ExchangeUserFeeData: Codable {
-    public let dailyUserVlm: [ExchangeDailyUserVolume]
-    public let feeSchedule: ExchangeFeeSchedule
     public let userCrossRate: String
     public let userAddRate: String
     public let userSpotCrossRate: String
     public let userSpotAddRate: String
     public let activeReferralDiscount: String
-    public let trial: String?
-    public let feeTrialReward: String
-    public let nextTrialAvailableTimestamp: String?
-    public let stakingLink: String?
     public let activeStakingDiscount: ExchangeStakingDiscount
 }
 
